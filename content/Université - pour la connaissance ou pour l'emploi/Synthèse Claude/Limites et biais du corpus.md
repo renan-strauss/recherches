@@ -1,0 +1,61 @@
+---
+tags: [conférence/université, méthode/biais, corpus/APC, auteur/Nussbaum]
+---
+# Limites et biais du corpus
+
+Retour : [[Carte du corpus]]
+
+## Un corpus majoritairement critique
+
+Sur 7 documents, 5 sont critiques de l'APC ou de la logique d'insertion (`Boutin2004`, `LeGuern2026`, `SNESUP724`, `SNESUP732`, et `Bourdon2012` pour la mesure). Seul `IGESR2020` défend clairement le déploiement de l'APC ; `Perennes` est ambivalente. **Aucun texte d'un promoteur de l'APC** (Tardif, Chauvigné et Coulet, LabSET, réseau Rénapsup…) n'est dans le dossier : leurs arguments ne sont connus que par ce qu'en disent leurs critiques ou le rapport.
+
+L'ajout de Nussbaum (`Nussbaum2011`) ne rééquilibre pas le dossier : son livre critique l'éducation « tournée vers le profit » et renforce donc le camp critique, même s'il ne parle pas de l'APC et refuse d'opposer profit et citoyenneté ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=15|p. 15]]).
+
+## Des sources qui se citent entre elles
+
+La convergence apparente est en partie un effet de réseau :
+- `LeGuern2026` cite abondamment le dossier `SNESUP732` (Bépoix, Aigle, Lebrun) et `Boutin2004`. Son [[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=8|§15]] sur les inégalités reprend presque mot pour mot Lebrun (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=18|p. 18]]), qu'elle cite. Sa conclusion reprend Aigle ([[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=15|§47]]).
+- La chronologie de l'APC (1999, 2002, 2018) est la même chez Bépoix (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=12|p. 12]]) et Le Guern ([[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=6|§9]]), qui la tient de Bépoix.
+- `SNESUP724` s'appuie sur `IGESR2020` ([[mensuel_snesup_ndeg_724_dossier.pdf#page=2|p. 10]]) pour en inverser le jugement.
+
+Conséquence : on ne peut pas compter ces textes comme des confirmations indépendantes.
+
+## Nature et statut des textes
+
+- **Presse syndicale** (`SNESUP724`, `SNESUP732`) : textes engagés, non évalués par des pairs, explicitement militants (« Do it ourselves ! », [[mensuel-snesup-ndeg-732.pdf#page=17|p. 17]] ; demande de dissolution du Hcéres, [[mensuel-snesup-ndeg-732.pdf#page=7|p. 7]]). Ils apportent des faits utiles (InserSup, BUT, INSPÉ) mais leurs conclusions sont des prises de position.
+- **Rapport d'inspection** (`IGESR2020`) : commandé par la ministre, il évalue une politique ministérielle ; seulement quatre visites sur site à cause de la pandémie ([[IGESR_Mission_insertion_professionnelle_universite_Bilan_loi_LRU_1374313.pdf#page=12|p. 6]]) ; recommande de poursuivre l'APC sans fournir d'évaluation de ses effets sur les apprentissages.
+- **Boutin** : essai de 2004, centré sur l'école au Québec, peu de données ; il s'appuie notamment sur Michéa, dont il reconnaît que la critique « peut paraître exagérée aux yeux de certains » ([[boutin-2004-lapproche-par-competences-en-education-un-amalgame-paradigmatique.pdf#page=18|p. 40]]).
+- **Le Guern** : une seule université ; 16 entretiens d'enseignants ayant un rôle dans le projet et 22 personnels administratifs ([[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=5|§5]]) ; les verbatims du questionnaire sont des commentaires libres (auto-sélection probable), à 60 % issus des filières STS (note 6), et l'autrice n'en exploite pas les données chiffrées ([[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=5|§5]]).
+- **Pérennès** : retour d'expérience d'une responsable de service, juge et partie ; revue et date non indiquées dans le fichier.
+- **Bourdon et al.** : solide méthodologiquement, mais données anciennes (Génération 2004, enquête master 2007) ; ne parle pas de l'APC.
+
+## Nussbaum : statut et limites
+
+- **Un manifeste, de son propre aveu** : « Mon texte est un manifeste et non une étude empirique : ce chapitre ne comportera pas beaucoup de données quantitatives » ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=109|p. 109]]). Ses preuves sont des anecdotes « parlantes et représentatives » choisies par elle ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=109|p. 109]]) ; l'argument économique en faveur des arts libéraux est reconnu comme difficile à tester (« il est difficile de construire une expérience contrôlée », [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=51|p. 51]]).
+- **Un autre terrain** : le livre porte sur les États-Unis et l'Inde, et sur l'école autant que sur l'université. L'Europe n'apparaît que par remarques (coupes dans les humanités, [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=20|p. 20]] ; Royaume-Uni, [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=114|p. 114]]-[[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=116|116]] ; Bologne, [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=127|note 76, p. 127]]). Il ne dit rien de l'APC, du Hcéres, de la loi LRU ou des indicateurs d'insertion : tout rapprochement avec le corpus est une **transposition**.
+- **Un modèle de référence situé** : son idéal est le modèle américain des *liberal arts* (cours généraux obligatoires en premier cycle), qu'elle juge absent d'Europe ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=54|p. 54]], [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=114|p. 114]]) et lié au financement par de « riches anciens élèves » ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=118|p. 118]]). Le transposer à une université française de masse pose la question des moyens qu'elle-même soulève ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=112|p. 112]]).
+- **Une partie prenante** : elle a participé au rapport LEAP de l'Association américaine des collèges et universités, qu'elle cite comme « contre-rapport » et dont elle se dit « largement en accord » (« ce qui n'est pas surprenant, puisque j'ai participé à l'élaboration du document », [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=16|p. 16, note 1]]).
+- **Pagination** : livre numérique sans la pagination papier ; les numéros de page de la synthèse sont ceux du PDF.
+- **Date** : 2010 en anglais ; les exemples (Obama, réformes britanniques de 2009) ont quinze ans.
+
+## Une absence de preuve partagée
+
+Les critiques soulignent l'absence de preuve d'efficacité de l'APC (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=16|p. 16]] et 19 ; `LeGuern2026`, [[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=10|§25]] et [[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=11|§31]] ; `Boutin2004`, [[boutin-2004-lapproche-par-competences-en-education-un-amalgame-paradigmatique.pdf#page=16|p. 38]]). Mais le corpus ne contient pas non plus de preuve de son **inefficacité** dans le supérieur : Lebrun reconnaît que ces recherches « sont très peu fournies dans le supérieur » (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=19|p. 19]]). Le seul chiffre de résultat (taux de passage en BUT, [[mensuel-snesup-ndeg-732.pdf#page=13|p. 13]]) n'est pas une démonstration causale. Symétriquement, le rapport d'inspection recommande l'APC sans données d'effet. **Les deux camps argumentent en l'absence d'évaluation rigoureuse.**
+
+## Ce qui manque pour un débat équilibré
+
+1. Des textes de promoteurs de l'APC, dans leurs propres termes.
+2. Des évaluations empiriques des effets de l'APC dans le supérieur (apprentissages, réussite, inégalités).
+3. La parole des étudiants : seule l'enquête de Pérennès sur les stages (200 répondants, `Perennes`, [[Universités-et-insertion-professionnelle-des-étudiants-jusquoù-luniversité-peut-elle-et-doit-elle-sengager-_.pdf#page=9|p. 54]]), plutôt positive, la donne.
+4. Le point de vue des employeurs autrement que par le rapport (`IGESR2020`, [[IGESR_Mission_insertion_professionnelle_universite_Bilan_loi_LRU_1374313.pdf#page=27|p. 21-23]]).
+5. Des comparaisons internationales développées (le rapport évoque la Suède, [[IGESR_Mission_insertion_professionnelle_universite_Bilan_loi_LRU_1374313.pdf#page=55|p. 49]]).
+6. Des données récentes sur l'insertion par discipline (le corpus s'arrête à 2016 pour le rapport, 2021 pour InserSup).
+7. Un texte sur les finalités de l'université **pensé pour le contexte français ou européen** : Nussbaum est désormais dans le dossier, mais elle écrit depuis les États-Unis et ne traite ni l'APC ni l'insertion ([[Finalités, émancipation et citoyenneté]]). Aucun texte ne défend non plus, en philosophe, la finalité professionnelle de l'université.
+
+## Mes propres biais dans cette synthèse
+
+- Ta consigne présentait le corpus comme critique de l'APC. J'ai pu, en sélectionnant les passages, renforcer cette lecture. J'ai donc cherché à faire ressortir les concessions des critiques (Boutin, [[boutin-2004-lapproche-par-competences-en-education-un-amalgame-paradigmatique.pdf#page=11|p. 33]] et 37 ; Lebrun, [[mensuel-snesup-ndeg-732.pdf#page=19|p. 19]]) et les points d'accord entre camps (mesure de l'insertion, refus de la caricature).
+- La sélection de « trois idées » par texte est réductrice, surtout pour le rapport d'inspection (112 pages), dont j'ai lu en détail la synthèse, les recommandations, les parties 1, 2.1.4, 3.3 et 4.3 et la conclusion, et survolé le reste.
+- La distinction « insertion comme mission / APC comme outil » est ma grille de lecture ; elle n'est formulée telle quelle par aucun des auteurs.
+- Les rapprochements entre Nussbaum et le corpus sont les miens. En les faisant, j'ai été tenté de lire le corpus « à travers » Nussbaum et de le présenter comme une illustration française de sa thèse. J'ai donc mis en avant ce qui l'en distingue : son refus d'opposer profit et citoyenneté ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=15|p. 15]]), son acceptation d'une évaluation qualitative ([[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=120|p. 120]]), et les points où elle rejoint certaines intentions de l'APC (pédagogie active, critique du bachotage, [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf#page=111|p. 111]]).
+- Pour Nussbaum, j'ai lu en détail les chapitres 1, 2 et 7 et le chapitre 4 sur la pédagogie socratique, et survolé les chapitres 3, 5 et 6.
