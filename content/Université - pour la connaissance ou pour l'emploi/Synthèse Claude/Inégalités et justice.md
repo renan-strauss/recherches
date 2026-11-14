@@ -5,7 +5,7 @@ tags: [conférence/université, thème/inégalités, concept/capital-social, con
 
 Retour : [[Carte du corpus]]
 
-Point clé pour le débat : **les deux camps invoquent l'égalité**. Les promoteurs présentent l'APC comme un outil de réussite des « nouveaux publics » ; les critiques y voient un instrument de tri social. Le Guern le résume : « Deux points de vue divergent donc : réduction ou augmentation des inégalités » (`LeGuern2026`, [[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=8|§15]]).
+Point clé pour le débat : **les deux camps invoquent l'égalité**. Les promoteurs présentent l'APC comme un outil de réussite des « nouveaux publics » ; les critiques y voient un instrument de tri social. Le Guern le résume, en renvoyant à Lebrun : « Deux points de vue divergent donc : réduction ou augmentation des inégalités » (`LeGuern2026`, [[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=8|§15]]).
 
 ## L'argument des promoteurs (tel que rapporté)
 
@@ -20,7 +20,7 @@ Point clé pour le débat : **les deux camps invoquent l'égalité**. Les promot
 
 - L'APC « tend à faire reposer la réussite académique sur les ressources personnelles des étudiants, notamment celles liées à leur capital social et culturel, plutôt que sur la prise en compte des difficultés conceptuelles ou des obstacles épistémologiques » ; elle peut fonctionner « comme un mécanisme de sélection sociale », surtout pour les étudiants salariés (`LeGuern2026`, [[le-guern-2026-lapproche-par-competences-a-luniversite-de-sa-genese-institutionnelle-a-la-recomposition-du-travail-enseignant.pdf#page=8|§15]]).
 - Formulation presque identique chez Lebrun, qui ajoute : « L'APC peut ainsi devenir un outil de tri social comme Parcoursup » (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=18|p. 18]]). *Attention* : la proximité des deux passages tient au fait que Le Guern s'appuie sur Lebrun ; ce n'est pas une confirmation indépendante.
-- Aigle critique le « mythe » des « nouveaux étudiants », qui « déplace la cible de la critique portée par Bourdieu et Passeron » : on interroge la capacité des moins dotés plutôt que l'idéologie du mérite (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=16|p. 16]]).
+- Aigle critique le « mythe » des « nouveaux étudiants », qui « déplace la cible de la critique portée par Bourdieu et Passeron » : on met en doute « la capacité des moins doués » à réussir, et non plus l'idéologie du mérite (`SNESUP732`, [[mensuel-snesup-ndeg-732.pdf#page=16|p. 16]]).
 
 ## Ce que mesurent les économistes
 

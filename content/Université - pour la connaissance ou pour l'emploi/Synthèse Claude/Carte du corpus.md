@@ -11,7 +11,7 @@ créé: 2026-11-08
 ---
 # Carte du corpus : université, émancipation ou insertion
 
-Note d'entrée (MOC) de la synthèse préparatoire à la conférence-débat sur le rôle de l'université. La synthèse s'appuie **uniquement** sur les 8 documents du dossier `Université - émancipation ou insertion` (7 articles, revues et rapports, plus le livre de Nussbaum ajouté ensuite). Aucune autre source n'a été utilisée. Pas de plan de conférence à ce stade.
+Note d'entrée (MOC) de la synthèse préparatoire à la conférence-débat sur le rôle de l'université. La synthèse s'appuie sur les 9 documents du dossier `Synthèse Claude/Articles` (7 articles, revues et rapports, le livre de Nussbaum, puis les notes de la directrice de Cap'Avenir). La note [[Position de la directrice de Cap'Avenir]] utilise en plus tes notes personnelles et quelques vérifications en ligne, signalées comme telles. Pas de plan de conférence à ce stade.
 
 ## Notes thématiques
 
@@ -26,7 +26,7 @@ Note d'entrée (MOC) de la synthèse préparatoire à la conférence-débat sur 
 
 Sources et « 3 idées par texte » : [[Sources - trois idées par texte]].
 
-## Les 8 documents en un coup d'œil
+## Les 9 documents en un coup d'œil
 
 | Clé | Document | Nature | Position dominante |
 |---|---|---|---|
@@ -38,9 +38,10 @@ Sources et « 3 idées par texte » : [[Sources - trois idées par texte]].
 | `SNESUP724` | *Le Snesup* n° 724, dossier « L'insertion professionnelle… un critère à interroger », mai 2024 | Presse syndicale | Critique |
 | `SNESUP732` | *Le Snesup* n° 732, dossier « Que cache l'approche par compétences ? », avril 2025 | Presse syndicale | Critique |
 | `Nussbaum2011` | Martha Nussbaum, *Les émotions démocratiques. Comment former le citoyen du XXIᵉ siècle ?*, Climats, 2011 (trad. S. Chavel ; éd. orig. *Not for Profit*, 2010) | Essai philosophique, « manifeste » (États-Unis, Inde) | Critique de l'éducation « tournée vers le profit », sans opposer profit et citoyenneté ; ne parle pas de l'APC |
+| `CapAvenir2026` | Directrice de Cap'Avenir (UBO), « Connaissance et emploi : une “fausse” alternative », notes pour le débat du 12 novembre 2026 | Point de vue de trois pages (scan), sans données | Favorable à la mission d'insertion, critique des indicateurs ; voir [[Position de la directrice de Cap'Avenir]] |
 
 > [!note] Pagination utilisée
-> Pages de la revue ou du rapport imprimés, sauf pour Le Guern (paragraphes § et pages de l'édition électronique OpenEdition, seule pagination présente dans le fichier) et Pérennès (pages imprimées 46-58, revue non identifiée). Pour *Le Snesup* 732, seuls l'éditorial (p. 3), une brève (p. 6) et le dossier (p. 11-19) concernent le sujet. **Nussbaum** : le fichier est un livre numérique sans la pagination papier ; les numéros sont ceux du PDF (141 pages). À vérifier sur l'édition imprimée avant de citer en public.
+> Pages de la revue ou du rapport imprimés, sauf pour Le Guern (paragraphes § et pages de l'édition électronique OpenEdition, seule pagination présente dans le fichier) et Pérennès (pages imprimées 46-58, revue non identifiée). Pour *Le Snesup* 732, seuls l'éditorial (p. 3), un article d'actualité (p. 6) et le dossier (p. 11-19) concernent le sujet. **Nussbaum** : le fichier est un livre numérique sans la pagination papier ; les numéros sont ceux du PDF (141 pages). À vérifier sur l'édition imprimée avant de citer en public.
 
 
 ## Fichiers PDF
@@ -56,6 +57,7 @@ Sources et « 3 idées par texte » : [[Sources - trois idées par texte]].
 - `SNESUP724` : [[mensuel_snesup_ndeg_724_dossier.pdf|SNESUP724]]
 - `SNESUP732` : [[mensuel-snesup-ndeg-732.pdf|SNESUP732]]
 - `Nussbaum2011` : [[Les-Émotions-démocratiques-Comment-former-le-citoyen-du-Martha-Nussbaum-2011-Climats-f4961f4b4a472.pdf|Nussbaum2011]]
+- `CapAvenir2026` : [[Notes Marie-Christine (directrice de Cap'Avenir).pdf|CapAvenir2026]]
 
 ## Fil conducteur en une phrase
 
