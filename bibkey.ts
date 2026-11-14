@@ -43,6 +43,82 @@ const defaults: Options = {
 const escapeHtml = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
 
+/** Découpe un fichier .bib en entrées (@book{...}, @article{...}, etc.). */
+const splitEntries = (bib: string): string[] => {
+  const starts: number[] = []
+  const re = /^[ \t]*@[A-Za-z]+[ \t]*[{(]/gm
+  let m: RegExpExecArray | null
+  while ((m = re.exec(bib))) starts.push(m.index)
+  return starts.map((s, i) => bib.slice(s, starts[i + 1] ?? bib.length).trim())
+}
+
+/**
+ * Lecture tolérante d'une entrée mal formée (clé avec espace, virgule
+ * manquante, valeur sans accolades, etc.). Renvoie la clé d'origine et une
+ * entrée réécrite proprement, ou undefined si rien n'est récupérable.
+ */
+const repairEntry = (chunk: string): { key: string; text: string } | undefined => {
+  const head = chunk.match(/^@([A-Za-z]+)[ \t]*[{(]/)
+  if (!head) return undefined
+  let rest = chunk.slice(head[0].length)
+  let key = ""
+  // La clé est ce qui précède la première virgule, sauf si la première ligne
+  // est déjà un champ (clé absente) ou si la virgule manque.
+  const firstLine = rest.split("\n")[0]
+  if (/^\s*[A-Za-z][\w-]*\s*=/.test(firstLine) && !firstLine.includes(",")) {
+    key = ""
+  } else if (firstLine.includes(",")) {
+    key = firstLine.slice(0, firstLine.indexOf(",")).trim()
+    rest = rest.slice(firstLine.indexOf(",") + 1)
+  } else {
+    key = firstLine.trim()
+    rest = rest.slice(firstLine.length)
+  }
+  if (!key) return undefined
+
+  const fields: [string, string][] = []
+  const fieldRe = /([A-Za-z][\w-]*)\s*=\s*/g
+  let m: RegExpExecArray | null
+  while ((m = fieldRe.exec(rest))) {
+    let i = fieldRe.lastIndex
+    let value = ""
+    if (rest[i] === "{") {
+      let depth = 0
+      let j = i
+      for (; j < rest.length; j++) {
+        if (rest[j] === "{") depth++
+        else if (rest[j] === "}" && --depth === 0) break
+      }
+      value = rest.slice(i + 1, j)
+      i = j + 1
+    } else if (rest[i] === '"') {
+      const j = rest.indexOf('"', i + 1)
+      value = rest.slice(i + 1, j === -1 ? rest.length : j)
+      i = j === -1 ? rest.length : j + 1
+    } else {
+      const j = rest.slice(i).search(/[,\n}]/)
+      const end = j === -1 ? rest.length : i + j
+      value = rest.slice(i, end)
+      i = end
+    }
+    fields.push([m[1].toLowerCase(), value.trim()])
+    fieldRe.lastIndex = i
+  }
+  if (fields.length === 0) return undefined
+  const body = fields.map(([name, value]) => `  ${name} = {${value}}`).join(",\n")
+  return { key, text: `@${head[1]}{bibkeytmp,\n${body}\n}` }
+}
+
+/** Retire les espaces superflus des valeurs (« { Titre } » dans les exports Cairn). */
+const trimStrings = (value: any): any => {
+  if (typeof value === "string") return value.trim()
+  if (Array.isArray(value)) return value.map(trimStrings)
+  if (value && typeof value === "object") {
+    for (const k of Object.keys(value)) value[k] = trimStrings(value[k])
+  }
+  return value
+}
+
 export const BibkeyBlocks = (userOpts?: Partial<Options>) => {
   const opts = { ...defaults, ...userOpts }
   let entries: Map<string, unknown> | undefined
@@ -54,24 +130,54 @@ export const BibkeyBlocks = (userOpts?: Partial<Options>) => {
       console.warn(`[bibkey] fichier introuvable : ${opts.bibliographyFile}`)
       return entries
     }
-    const cite = new Cite(fs.readFileSync(opts.bibliographyFile, "utf8"))
-    for (const entry of cite.data) entries.set(entry.id, entry)
+    const bib = fs.readFileSync(opts.bibliographyFile, "utf8").replace(/^﻿/, "")
+    for (const rawChunk of splitEntries(bib)) {
+      // « = { valeur }, » devient « = {valeur}, » (exports Cairn)
+      const chunk = rawChunk
+        .replace(/=[ \t]*\{[ \t]+/g, "= {")
+        .replace(/[ \t]+\}([ \t]*,?[ \t]*)$/gm, "}$1")
+      if (/^@(comment|preamble|string)\b/i.test(chunk)) continue
+      try {
+        for (const entry of new Cite(chunk).data) entries.set(String(entry.id), trimStrings(entry))
+        continue
+      } catch {
+        // entrée mal formée : on tente la lecture tolérante ci-dessous
+      }
+      const repaired = repairEntry(chunk)
+      try {
+        if (!repaired) throw new Error("illisible")
+        const entry = trimStrings(new Cite(repaired.text).data[0])
+        entry.id = repaired.key
+        entry["citation-key"] = repaired.key
+        entries.set(repaired.key, entry)
+        console.warn(`[bibkey] entrée mal formée, lue en mode tolérant : ${repaired.key}`)
+      } catch {
+        console.warn(`[bibkey] entrée ignorée (illisible) : ${chunk.split("\n")[0]}`)
+      }
+    }
     return entries
   }
 
-  const render = (key: string) => {
-    const entry = load().get(key)
-    if (!entry) {
-      console.warn(`[bibkey] clé absente du fichier .bib : ${key}`)
-      return `<p class="bib-entry bib-missing">Référence introuvable : <code>${escapeHtml(key)}</code></p>`
+  const render = (rawKey: string) => {
+    const key = rawKey.trim()
+    try {
+      const entry = load().get(key)
+      if (!entry) {
+        console.warn(`[bibkey] clé absente du fichier .bib : ${key}`)
+        return `<p class="bib-entry bib-missing">Référence introuvable : <code>${escapeHtml(key)}</code></p>`
+      }
+      const html: string = new Cite(entry).format("bibliography", {
+        format: "html",
+        template: opts.style,
+        lang: opts.lang,
+      })
+      const inner = html.match(/<div[^>]*class="csl-entry"[^>]*>([\s\S]*?)<\/div>/)?.[1] ?? html
+      const linked = inner.trim().replace(/https?:\/\/[^\s<]+/g, (url) => `<a href="${url}">${url}</a>`)
+      return `<p class="bib-entry">${linked}</p>`
+    } catch (err) {
+      console.warn(`[bibkey] référence non mise en forme : ${key} (${err})`)
+      return `<p class="bib-entry bib-missing">Référence non mise en forme : <code>${escapeHtml(key)}</code></p>`
     }
-    const html: string = new Cite(entry).format("bibliography", {
-      format: "html",
-      template: opts.style,
-      lang: opts.lang,
-    })
-    const inner = html.match(/<div[^>]*class="csl-entry"[^>]*>([\s\S]*?)<\/div>/)?.[1] ?? html
-    return `<p class="bib-entry">${inner.trim()}</p>`
   }
 
   return {
@@ -81,7 +187,8 @@ export const BibkeyBlocks = (userOpts?: Partial<Options>) => {
         () => (tree: any) => {
           visit(tree, "code", (node: any, index: number | undefined, parent: any) => {
             if (node.lang !== "bibkey" || !parent || index === undefined) return
-            const keys = String(node.value).split(/\s+/).filter(Boolean)
+            // Une clé par ligne (une clé mal formée peut contenir un espace)
+            const keys = String(node.value).split(/\r?\n/).map((k) => k.trim()).filter(Boolean)
             parent.children[index] = { type: "html", value: keys.map(render).join("\n") }
           })
         },
