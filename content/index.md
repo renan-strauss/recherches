@@ -2,14 +2,14 @@
 title: "Université : pour la connaissance ou pour l'emploi ?"
 ---
 
-Ce carnet rassemble des notes de lecture, des fiches de concepts et une synthèse documentaire sur les missions de l'université : transmettre des savoirs, former des citoyens, préparer à l'emploi. Il a été constitué pour la conférence-débat « Enseignement supérieur : pour la connaissance ou pour l'emploi ? », tenue à l'UBO le 12 novembre 2026.
+Ce carnet rassemble des notes de lecture, des fiches de concepts et une synthèse documentaire assistée par IA sur les missions de l'université : transmettre des savoirs, former des citoyens, préparer à l'emploi. Il a été constitué pour la conférence-débat « Enseignement supérieur : pour la connaissance ou pour l'emploi ? », tenue à l'UBO en novembre 2026.
 
 ## Par où commencer
 
 - [[Carte du corpus]] : la vue d'ensemble des documents étudiés et le fil conducteur de la synthèse.
 - [[Idées personnelles]] : mes pistes de réflexion, encore en chantier.
 
-## Synthèse du corpus
+## Synthèse du corpus d'articles et de dossiers sur l'insertion professionnelle et l'APC
 
 Cette synthèse a été rédigée avec l'aide de Claude (IA) à partir des seuls documents du dossier. Ses limites sont détaillées dans [[Limites et biais du corpus]].
 
@@ -20,7 +20,6 @@ Cette synthèse a été rédigée avec l'aide de Claude (IA) à partir des seuls
 5. [[Inégalités et justice]] : l'insertion et l'approche par compétences réduisent-elles ou creusent-elles les inégalités ?
 6. [[Finalités, émancipation et citoyenneté]] : la thèse de Martha Nussbaum et ses points de jonction avec le corpus.
 7. [[Limites et biais du corpus]] : ce que le dossier ne permet pas de dire.
-8. [[Position de la directrice de Cap'Avenir]] : la thèse de la « fausse alternative », ses appuis et ses angles morts.
 
 ## Sources
 
