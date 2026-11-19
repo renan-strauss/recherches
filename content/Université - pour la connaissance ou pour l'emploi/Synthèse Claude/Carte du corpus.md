@@ -11,7 +11,7 @@ créé: 2026-11-08
 ---
 # Carte du corpus : université, émancipation ou insertion
 
-Note d'entrée (MOC) de la synthèse préparatoire à la conférence-débat sur le rôle de l'université. La synthèse s'appuie sur les 9 documents du dossier `Synthèse Claude/Articles` (7 articles, revues et rapports, le livre de Nussbaum, puis les notes de la directrice de Cap'Avenir). La note [[Position de la directrice de Cap'Avenir]] utilise en plus tes notes personnelles et quelques vérifications en ligne, signalées comme telles. Pas de plan de conférence à ce stade.
+Note d'entrée (MOC) de la synthèse préparatoire à la conférence-débat sur le rôle de l'université. La synthèse s'appuie sur les 8 documents du dossier `Synthèse Claude/Articles` (7 articles, revues et rapports, le livre de Nussbaum).
 
 ## Notes thématiques
 
