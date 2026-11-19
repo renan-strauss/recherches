@@ -22,7 +22,6 @@ Note d'entrée (MOC) de la synthèse préparatoire à la conférence-débat sur 
 5. [[Inégalités et justice]] : l'APC et la professionnalisation réduisent-elles ou creusent-elles les inégalités ?
 6. [[Finalités, émancipation et citoyenneté]] : la thèse de Nussbaum (*Les émotions démocratiques*), ses nuances et ses **points de jonction avec le corpus**.
 7. [[Limites et biais du corpus]] : ce que le dossier ne permet pas de dire, et ce qui manque pour un débat équilibré.
-8. [[Position de la directrice de Cap'Avenir]] : sa thèse de la « fausse alternative », ses liens avec le dossier et avec tes notes, ses présupposés et ses angles morts.
 
 Sources et « 3 idées par texte » : [[Sources - trois idées par texte]].
 
